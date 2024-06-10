@@ -13,7 +13,7 @@ interface Props {
     onPressEnter?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
     onCompleteChange?: (e: React.MouseEvent) => void;
     readOnly?: boolean;
-    variant?:any;
+    variant?:"outlined" | "borderless" | "filled";
     value?: listItem;
 }
 
